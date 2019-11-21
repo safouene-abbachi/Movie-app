@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./Assets/cinema.jpg");
+  background-size: cover;
+}
+.nav-search {
+  display: flex;
+  justify-content: center;
+}
+.stars {
+  width: 221px;
+  color: gold;
+  font-size: 52px;
+  margin-top: 49px;
+  margin-right: 240px;
+  cursor: pointer;
+  border: 1px solid;
+  background: black;
+  border-radius: 7px;
+  margin-bottom: 34px;
+  margin-top: 52px;
+  width: 220px;
+}
+.saf {
+  font-size: 20px;
+  color: gold;
+}
+.add-btn {
+  margin-top: 82px;
+  font-size: 30px;
+  color: darkred;
+  height: 84px;
+
+  margin-left: 16px;
+}
+.description {
+  height: 86px;
+  border-radius: 5px;
+}
+.buttons {
+  justify-content: center !important;
+}
+.submit-btn,
+.cancel-btn {
+  width: 75px !important;
+  height: 38px;
+}
